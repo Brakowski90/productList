@@ -1,0 +1,88 @@
+body {
+  background-color: #f2f2f2; /* Ensure the body has the same background color */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  margin-top: 0; /* Remove margin from container */
+  padding: 100px 20px; /* Use padding instead to create space and ensure same background color */
+  background-color: #f2f2f2;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.product {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+.product-border {
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.pagination-button {
+  padding: 0.5rem;
+  margin: 0 0.2rem;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.pagination-button:hover {
+  background-color: #f0f0f0;
+  color: #000;
+  border-color: #999;
+}
+
+.search-sort-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  gap: 10px; /* Reduced gap between search bar and dropdowns */
+  padding: 0 20px; /* Add padding to create space from the sides of the screen */
+}
+
+.sort-dropdowns {
+  display: flex;
+  gap: 10px; /* Reduced gap between dropdowns */
+}
+
+.sort-dropdown {
+  width: 200px; /* Adjust width as needed */
+}
+
+.search-bar input {
+  width: 300px; /* Increased width for input */
+  background-color: #fff; /* Changed background color for better visibility */
+  padding: 5px; /* Add padding for better usability */
+  border: 1px solid #ccc; /* Add border for better styling */
+  border-radius: 4px; /* Add border radius for rounded corners */
+}
