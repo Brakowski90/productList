@@ -64,20 +64,6 @@ const ProductList = () => {
             <option value="Jewelery">Jewelery</option>
             <option value="Health">Health</option>
             <option value="Clothing">Clothing</option>
-            <option value="Games">Games</option>
-            <option value="Computers">Computers</option>
-            <option value="Garden">Garden</option>
-            <option value="Sports">Sports</option>
-            <option value="Tools">Tools</option>
-            <option value="Baby">Baby</option>
-            <option value="Shoes">Shoes</option>
-            <option value="Home">Home</option>
-            <option value="Books">Books</option>
-            <option value="Grocery">Grocery</option>
-            <option value="Music">Music</option>
-            <option value="Industrial">Industrial</option>
-            <option value="Kids">Kids</option>
-            <option value="Automotive">Automotive</option>
           </select>
           <select className="sort-dropdown" value={sortPrice} onChange={(e) => handleSortPriceChange(e.target.value)}>
             <option value="">Sort by price</option>
